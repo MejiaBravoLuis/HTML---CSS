@@ -1,0 +1,75 @@
+h1{
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+h2{
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: black solid;
+    
+}
+
+body {
+    background-image: url(assets/image/Kinal.png);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+article {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido {
+    font-family: "Kosugi Maru", sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.bloque {
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: left;
+    flex-grow: 1; 
+    min-height: 200px; 
+}
+
+.bloque h2 {
+    color: #041174;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bloque p, .bloque ul {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.bloque ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

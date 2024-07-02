@@ -1,0 +1,90 @@
+.Titulo{
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    font-size: 300;
+    color: white;
+}
+
+body {
+    background-image: url('assets/image/Fondo.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    font-family: "VT323", monospace;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+table{
+    font-size: 15px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.table1, .table2{
+    color: bisque;
+
+
+}
+
+.tablecontainer{
+    backdrop-filter: blur(5px); 
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    text-align: center;
+    
+}
+
+.indexbutton{
+    color: aliceblue;
+}
+
+table{
+    
+    font-size: 20px;
+    border: whitesmoke solid 4px;
+    padding: 0px 50px 0px 50px;
+    margin: 10px 0px 50px 50px;
+
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 2px;
+    border:  whitesmoke solid 4px;
+}
+
+nav h1 {
+    font-size: 60px;
+    color: #92D4DD;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+li{
+    margin: 0px 100px 0px;
+}
+
+div{
+    color: #92D4DD;
+    justify-content: center;
+}
+
+.footer{
+    font-size:  20px;
+    color: bisque;
+    text-align: center;
+}
